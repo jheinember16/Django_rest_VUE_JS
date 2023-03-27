@@ -4,7 +4,7 @@ import os
 import environ 
 env = environ.Env()
 # reading .env file
-environ.Env.read_end()
+environ.Env.read_env()
 
 DEBUG = env('DEBUG')
 SECRET_KEY = env('SECRET_KEY')
